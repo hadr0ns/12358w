@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #F5F5F5;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.item {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  text-align: center;
+}
+
+strong {
+  font-family: "Comic Sans MS";
+}
+
+.humans-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.humans-item {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  margin: 15px;
+
+}
+
+.humans-image {
+  display: flex;
+}
+
+.description {
+  display: flex;
+  text-align: center;
+  font-size: 24px;
+}
+.title {
+  text-align: center;
+  justify-content: center;
+}
+
+img.resize {
+  width: 300px;
+}
+img.caskets {
+  width: 1000px;
+}
+
+.footer {
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+ol {
+  list-style-position: inside;
+}
+.rules {
+  font-size: 36px;
+}
